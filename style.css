@@ -111,7 +111,7 @@
     margin-left: -14px
 }
 .smalltext{
-    font-size: 25px;
+    font-size: px;
     padding: 5px;
     /* font-family: 'PT Sans Narrow', sans-serif; */
     font-family:  'Roboto', sans-serif;
@@ -132,21 +132,26 @@
     color: white;
     cursor: pointer;
     font-style: italic;
+    padding: 3px;
+vertical-align: middle;
+border: 1px solid gray;
+border-radius: 8px;
 
 }
 .btn:hover{
     color: black;
-    background-color:gray;
+    background-color: #ffffff;
     transition: 0.8s ease all;
 
 }
-.btn{
+/* .btn{
 padding: 3px;
 vertical-align: middle;
 border: 1px solid gray;
 border-radius: 8px;
-}
+} */
 .searchbar{
+    font-weight: bold;
     margin: 10px;
     padding: 10px;
     color: white;
@@ -250,7 +255,7 @@ border-radius: 8px;
 }
 .footer{
     background-color: #24262b;
-    padding: 70px 0px;
+    padding: 65px 0px;
     
 
 }
@@ -276,4 +281,73 @@ border-radius: 8px;
     color: #ffff;
     text-transform: capitalize;
     margin-bottom: 30px;
+    position: relative;
+    font-weight: 500;
+    
+}
+.footer-col h4::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px
+    
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+    
+
+
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: 0.3s ease all;
+
+
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 5px;
+}
+.footer-col .socialmedia a{
+    display:inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0px 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: 0.5s ease all;
+}
+.footer-col .socialmedia a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+@media(max-width: 767px){
+    .footer-col
+     {width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+    .footer-col
+     {width: 100%
+}
+}
+body#aboutus{
+     background-color: #fcfcff;
+    
+
+
 }
