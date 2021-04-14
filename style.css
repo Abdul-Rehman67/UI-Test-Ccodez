@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    cursor: pointer;
+    top: 0%;
+}
+.navlist{
+    width: 50%;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.navlist li{
+    list-style: none;
+    padding: 20px;
+
+    
+
+    
+
+}
+.navlist li a{
+ 
+    text-decoration: none;
+    color: aliceblue;
+
+    
+
+}
+.navlist li a:hover{
+    transition: all 0.8s ease;
+    color: gray;
+}
+.right-nav{
+    width: 50%;
+    text-align: right;
+    padding: 0px 23px;
+}
+.logo img{
+    width: 20%;
+    border: 3px solid black;
+    border-radius: 50px;
+    
+
+}
+#search-bar{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 9px;
+    text-align: center;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url(images/background.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.boxmain{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    color: white;
+    font-family:  'Roboto', sans-serif;
+    max-width: 85%;
+
+        margin: auto;
+    height: 75%;
+}
+.firstsection{
+    height: 100vh;
+
+}
+.firsthalf{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+.secondhalf{
+    width: 30%;
+}
+.secondhalf img{
+    width: 70%;
+    border: solid 2px black;
+    border-radius: 24px;
+    display: block;
+    margin: auto;
+    height: 150px
+}
+.bigtext{
+    font-family:  'Roboto', sans-serif;
+    font-weight: bold;
+
+
+    font-size: 49px;
+    padding: 10px;
+    margin-left: -14px
+}
+.smalltext{
+    font-size: 25px;
+    padding: 5px;
+    /* font-family: 'PT Sans Narrow', sans-serif; */
+    font-family:  'Roboto', sans-serif;
+
+
+
+
+}
+.btn{
+    padding: 8px;
+    margin: 7px 0px;
+    border: 2px solid gray;
+    border-radius: 9px;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-style: italic;
+
+}
+.btn:hover{
+    color: black;
+    background-color:gray;
+    transition: 0.8s ease all;
+
+}
+.btn{
+padding: 3px;
+vertical-align: middle;
+border: 1px solid gray;
+border-radius: 8px;
+}
+.searchbar{
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    
+}
+.btnsearch{
+    font-size: smaller;
+    padding: 5px;
+}
+.firstSec{
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    background-color: #fcfcff;
+    
+    
+    
+}
+.thumbnail{
+    height: 100px;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 50px    
+    
+}
+.paras{
+    padding: 0 , 60px;
+    margin: 20px;
+}
+.secondSec{height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    flex-direction: row-reverse;
+    background-color: #fcfcff;
+
+}
+.thirdSec{
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    background-color: #fcfcff;
+
+}
+.thumbnail img{
+    width: 250px;
+    height: 170px;
+    border: solid gray 2px;
+    border-radius: 40px ;
+}
+.sectag{
+    margin-left: 40px;
+    padding: 20px;
+}
+.secsubtag{
+    padding-left: 63px;
+}
+.contact{
+    background-color: #f5f5f5;
+    height: 300px;
+    padding: 20px;
+    
+
+}
+.h2-contact{
+    text-align: center;
+}
+.input{
+    margin: 10px 0;
+    max-width: 100%;
+    font-size: 15px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+}
+.contact-form{
+    max-width: 200px;
+    margin-left: 565px;
+    font-size: small
+}
+.submit{
+    background-color: black;
+    padding: 5px;
+    height: 20px;
+    margin: 566px;
+} 
+.courses{
+    margin: -20px;
+    padding: 55px;
+    text-align: center;
+    font-size: 67px;
+    font-family: 'Roboto', sans-serif;
+}
+.footer{
+    background-color: #24262b;
+    padding: 70px 0px;
+    
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap  ;
+}
+.container{
+    max-width: 1170;
+    margin: auto;
+}
+.footer-col{
+    width: 20%;
+    padding: 0 15px;
+}
+.footer-col ul{
+    list-style: none;
+}
+
+.footer-col h4
+ {
+    font-size: 18px;
+    color: #ffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
