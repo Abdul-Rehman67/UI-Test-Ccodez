@@ -114,8 +114,8 @@
     font-size: px;
     padding: 5px;
     /* font-family: 'PT Sans Narrow', sans-serif; */
-    font-family:  'Roboto', sans-serif;
 
+    
 
 
 
@@ -347,7 +347,41 @@ border-radius: 8px;
 }
 body#aboutus{
      background-color: #fcfcff;
+     padding: 0;
+     margin: 0;
+     background-size: cover;
+     background-position: center;
+     background: url(images/background.jpg);
+
     
+
+
+}
+.containeraboutus{
+    height: 100%;
+    width: 35%;
+    background-color: rgba(0, 0, 0, .8);
+    margin-left: 429px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+}
+.auh1{
+        font-family:  'Roboto', sans-serif;
+        color: white;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+    
+
+}
+.aupara{color: white;
+    margin: 10px;
+    padding: 10px;
+    font-family:  'Roboto', sans-serif;
 
 
 }
