@@ -497,6 +497,63 @@ body#contactus{
 
 
 }
+@media screen and (max-width: 1216px) {
+
+    .contactussec{
+        flex-direction: column;
+
+    }
+    .contactusform .contactusinfo{
+        margin: 30px 50px;
+
+
+    }
+    .contactusform h1{
+        font-size: 30px;
+    }
+    .contactusform  .textbox{
+        width: 100%;
+    }
+    
+}
+body#gallery{
+    transform-style: preserve-3d;
+    /* font-family: 'Poppins', sans-serif; */
+    margin: 0%;
+    padding: 0%;
+    background-color: #e2e2e2;
+   
+
+
+
+
+}
+/* .gallcont{
+    position: relative;
+    column-count: 4;
+    padding: 20px;
+
+} */
+.images{
+   
+    margin-left: 273px;
+    padding: 10px;
+   
+    
+}
+.images img{
+   
+    padding: 20px;
+    
+    
+}
+.images h1{
+        font-family: 'Poppins', sans-serif;
+        margin-left: 21px;
+}
+  
+   
+
 
 
 
